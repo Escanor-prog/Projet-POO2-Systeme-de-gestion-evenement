@@ -1,0 +1,35 @@
+[ {
+  "type" : "conference",
+  "id" : "1",
+  "nom" : "Conf Java",
+  "date" : "2025-06-15 14:30:00",
+  "lieu" : "Paris",
+  "capaciteMax" : 2,
+  "participants" : [ {
+    "id" : "p1",
+    "nom" : "Bob",
+    "email" : "bob@mail.com"
+  }, {
+    "id" : "p2",
+    "nom" : "Charlie",
+    "email" : "charlie@mail.com"
+  } ],
+  "annule" : true,
+  "intervenants" : [ {
+    "nom" : "Alice",
+    "email" : "alice@mail.com",
+    "role" : "Oratrice"
+  } ],
+  "theme" : "Programmation"
+}, {
+  "type" : "concert",
+  "id" : "2",
+  "nom" : "Rock Night",
+  "date" : "2025-07-01 20:00:00",
+  "lieu" : "Lyon",
+  "capaciteMax" : 1,
+  "participants" : [ ],
+  "annule" : false,
+  "artiste" : "The Rockers",
+  "genre" : "Rock"
+} ]

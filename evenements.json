@@ -1,0 +1,69 @@
+[ {
+  "type" : "conference",
+  "id" : "1",
+  "nom" : "Conf Java",
+  "date" : "2025-05-26 16:02:23",
+  "lieu" : "Paris",
+  "capaciteMax" : 2,
+  "participants" : [ {
+    "id" : "p1",
+    "nom" : "Bob",
+    "email" : "bob@mail.com"
+  }, {
+    "id" : "p2",
+    "nom" : "Charlie",
+    "email" : "charlie@mail.com"
+  } ],
+  "annule" : true,
+  "intervenants" : [ {
+    "nom" : "Alice",
+    "email" : "alice@mail.com",
+    "role" : "Oratrice"
+  } ],
+  "theme" : "Programmation"
+}, {
+  "type" : "concert",
+  "id" : "2",
+  "nom" : "Rock Night",
+  "date" : "2025-05-26 16:02:23",
+  "lieu" : "Lyon",
+  "capaciteMax" : 1,
+  "participants" : [ {
+    "id" : "denny",
+    "nom" : "passo",
+    "email" : "pfrg@gmail.com"
+  } ],
+  "annule" : false,
+  "artiste" : "The Rockers",
+  "genre" : "Rock"
+}, {
+  "type" : "concert",
+  "id" : "E12",
+  "nom" : "Tech",
+  "date" : "2024-01-01 00:00:00",
+  "lieu" : "yaounde",
+  "capaciteMax" : 25,
+  "participants" : [ ],
+  "annule" : true,
+  "artiste" : "gazo",
+  "genre" : "pop"
+}, {
+  "type" : "concert",
+  "id" : "E5",
+  "nom" : "fete",
+  "date" : "2024-01-03 00:00:00",
+  "lieu" : "yaounde-hotel",
+  "capaciteMax" : 25,
+  "participants" : [ {
+    "id" : "Per2",
+    "nom" : "lili",
+    "email" : "lili@gmail.com"
+  }, {
+    "id" : "Mom25",
+    "nom" : "momo",
+    "email" : "mpo@gmail.com"
+  } ],
+  "annule" : false,
+  "artiste" : "Maitre Gims",
+  "genre" : "Rap"
+} ]

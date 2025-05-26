@@ -1,0 +1,27 @@
+[ {
+  "type" : "conference",
+  "id" : "1",
+  "nom" : "Conf Java",
+  "date" : "2025-07-15 15:30:00",
+  "lieu" : "Paris",
+  "capaciteMax" : 100,
+  "participants" : [ ],
+  "annule" : false,
+  "intervenants" : [ {
+    "nom" : "Alice",
+    "email" : "alice@mail.com",
+    "role" : "Oratrice"
+  } ],
+  "theme" : "Programmation"
+}, {
+  "type" : "concert",
+  "id" : "2",
+  "nom" : "Rock Night",
+  "date" : "2025-12-25 22:00:00",
+  "lieu" : "Lyon",
+  "capaciteMax" : 200,
+  "participants" : [ ],
+  "annule" : false,
+  "artiste" : "The Rockers",
+  "genre" : "Rock"
+} ]
