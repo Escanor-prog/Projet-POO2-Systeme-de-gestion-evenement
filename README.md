@@ -1,3 +1,5 @@
+# Location du Projet 
+le projet Java se trouve dans la branche Master le rapport se trouve dans la branche Main
 # Projet-POO2-Systeme-de-gestion-evenement
 c'est mon projet final de POO
 # Gestion d'Événements - Projet Java Swing
